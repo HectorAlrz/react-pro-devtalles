@@ -9,6 +9,12 @@ export { ProductButtons } from "./ProductButtons.";
 export { ProductTitle } from "./ProductTitle";
 export { ProductImage } from "./ProductImage";
 
+
+// this way we can use ProductCard as a HOC with subcomponents
+// like ProductCard.Title, ProductCard.Image, ProductCard.Buttons
+// and we keep the typesafety with ProductCardHOCProps
+//we use the ProductCardHOCProps interface to type the ProductCard object
+
 export const ProductCard: ProductCardHOCProps = Object.assign(ProductCardHOC, {
   Title: ProductTitle,
   Image: ProductImage,
