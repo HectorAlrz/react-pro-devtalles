@@ -51,8 +51,3 @@ nav li a {
   color: grey;
   transition: all .3s ease-out;
 }
-
-.content {
-  flex: 1;
-  padding: 20px;
-}
