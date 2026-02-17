@@ -1,0 +1,63 @@
+[
+  {
+    "type": "input",
+    "name": "firstName",
+    "label": "First Name",
+    "placeholder": "Enter your first name",
+    "value": "",
+    "validations": [
+      {
+        "type": "required",
+        "message": "First name is required"
+      },
+      {
+        "type": "minLength",
+        "value": 5,
+        "message": "First name must be at least 5 characters"
+      }
+    ]
+  },
+  {
+    "type": "input",
+    "name": "lastName",
+    "label": "Last Name",
+    "placeholder": "Enter your last name",
+    "value": ""
+  },
+  {
+    "type": "email",
+    "name": "email",
+    "label": "Email",
+    "placeholder": "Enter your email",
+    "value": "",
+    "validations": [
+      {
+        "type": "required",
+        "message": "Email is required"
+      }
+    ]
+  },
+  {
+    "type": "select",
+    "name": "country",
+    "label": "Country",
+    "value": "",
+    "options": [
+      {
+        "id": 1,
+        "value": "Super Smash Bros",
+        "label": "Super Smash Bros"
+      },
+      {
+        "id": 2,
+        "value": "Mario Kart",
+        "label": "Mario Kart"
+      },
+      {
+        "id": 3,
+        "value": "Zelda",
+        "label": "Zelda"
+      }
+    ]
+  }
+]
