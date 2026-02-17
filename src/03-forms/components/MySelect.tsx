@@ -21,4 +21,4 @@ function MySelect({ label, ...props }: Props) {
   );
 }
 
-export default MySelect;
+export { MySelect };

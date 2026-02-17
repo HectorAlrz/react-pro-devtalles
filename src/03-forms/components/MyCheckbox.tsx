@@ -10,7 +10,7 @@ interface Props {
 }
 
 function MyCheckbox({ label, ...props }: Props) {
-  const [field, meta] = useField({ ...props, type: "checkbox" });
+  const [field] = useField({ ...props, type: "checkbox" });
 
   return (
     <>
@@ -23,4 +23,4 @@ function MyCheckbox({ label, ...props }: Props) {
   );
 }
 
-export default MyCheckbox;
+export { MyCheckbox };

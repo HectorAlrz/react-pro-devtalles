@@ -21,4 +21,4 @@ function MyTextInput({ label, ...props }: Props) {
   );
 }
 
-export default MyTextInput;
+export { MyTextInput };
